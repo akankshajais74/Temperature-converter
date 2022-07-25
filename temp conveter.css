@@ -1,0 +1,19 @@
+body{
+    background-color: cadetblue;
+    
+}
+.container{
+    background-color: rgba(221, 160, 221, 0.637);
+   height: auto;
+   text-align: center;
+   margin-top: 97px;
+   margin-left: 255px;
+   /* border: 3px solid blue; */
+   align-items: center;
+   height: 177px;
+   width: 50%;
+   justify-content: center;
+}
+.size{
+    font-size: 36px;
+}
