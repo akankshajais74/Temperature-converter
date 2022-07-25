@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="./temp conveter.css">
+    <link rel="stylesheet" href="./temp.js">
+</head>
+<body>
+    <div class="container">
+  <form id="temp" onsubmit="calculateTemp(); return false"></form>
+  <div class="size">
+  <label for="temp">please enter the temperature to convert</label><br/>
+  <input type="number" name="temp" id="temp">
+  <select name="temp_diff" id="temp_diff">
+      <option value="cel">celsious</option>
+      <option value="fer">ferenheit</option>
+  </select></div><br>
+  <input type="submit" name="temp"><br>
+  <span id="resultContainer"></span>
+  
+
+</div></form>
+  <script src="./temp.js"></script>  
+</body>
+</html>
